@@ -5,7 +5,7 @@ A simple Chinese characters to pinyin lib. Original Author is Kin(Mr.kin@foxmail
 
 All including 20850 Chinese characters. This lib **NOT ABLE** to handle polyphone. Only support UTF-8.
 
-Usage:
+### Usage
 
 ``` php
 $pinyin = new EvaPinyin\Pinyin();
@@ -19,4 +19,8 @@ echo $pinyin->transformUcwords('拼音');
 //PY
 ```
 
+### Install
 
+Add below line to your composer.json
+
+    "allovince/evapinyin": "dev-master",
