@@ -1,0 +1,13 @@
+{
+    "name": "allovince/evapinyin",
+    "description": "A Pinyin transform lib",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "EvaPinyin": "src/"
+        }
+    }
+}
